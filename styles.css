@@ -1,3 +1,42 @@
 body{
   background-color: orange;
 }
+
+ol{
+  list-style-type: none;
+  display:inline;
+}
+
+ol li{
+  display:inline;
+  margin-left: 10px;
+}
+
+ol li a{
+  text-decoration: none;
+  color:black;
+  border: 1px solid black;
+  padding: 2px;
+  background-color: white;
+}
+ol li a:hover{
+  background-color: red;
+}
+
+header h2 {
+  display: inline;
+}
+
+.images{
+    display: inline;
+}
+.images img{
+  width: 40%;
+  margin-top: 8px;
+}
+
+.twitter{
+  width: 40%;
+  height: 460px;
+  display: inline;
+}
