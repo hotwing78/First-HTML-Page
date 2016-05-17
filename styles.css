@@ -2,6 +2,12 @@ body{
   background-color: orange;
 }
 
+header{
+  height:50px;
+  border-bottom: 2px solid black;
+  margin-bottom: 3px;
+
+}
 ol{
   list-style-type: none;
   display:inline;
@@ -16,14 +22,15 @@ ol li a{
   text-decoration: none;
   color:black;
   border: 1px solid black;
-  padding: 2px;
+  padding: 10px;
+  margin:15px;
   background-color: white;
 }
 ol li a:hover{
   background-color: red;
 }
 
-header h2 {
+header h1{
   display: inline;
 }
 
@@ -37,7 +44,8 @@ header h2 {
 
 .twitter{
   width: 40%;
-  height: 460px;
+  padding-top:80px;
+  /*height: 460px;*/
   display: inline;
 }
 
